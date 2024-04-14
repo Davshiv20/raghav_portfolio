@@ -241,6 +241,7 @@ section.freelancer h1{
 section.freelancer p{
     font-size:1.3rem;
     margin-bottom: 2rem;
+
     font-family:'Lato', sans-serif;
 }
 
@@ -257,6 +258,7 @@ section.reviews .slider .slide img{
 }
 section.reviews .slider .slide{
     text-align: center;
+    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -265,8 +267,10 @@ section.reviews .slider .slide{
 }
 section.reviews .slider .slide p{
     font-family: 'Lato', sans-serif;
-    color:var(--ternary);
+    color:black;
     margin-bottom: 1rem;
+    font-size: 1.1rem; /* Adjust font size as needed */
+    line-height: 1.6;
 }
 section.reviews .slider .slide span{
     font-size: 0.8rem;
@@ -352,6 +356,7 @@ section.blog{
 }
 section.blog .section-heading{
     color:var(--pure);
+    
 }
 section.blog .card-wrapper{
     display:grid;
@@ -604,6 +609,7 @@ footer .copyright{
     }
     section{
         padding: 4rem 0;
+        
     }
     section.services .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
@@ -633,11 +639,13 @@ footer .copyright{
     
     .section-heading + p{
         margin-bottom: 3rem;
+        
     }
     section.work .card-wrapper{
         grid-template-columns: repeat(1,1fr);
     }
     section.contact .card-wrapper{
+        
         grid-template-columns: repeat(1,1fr);
     }
     section.contact .input-wrap{
